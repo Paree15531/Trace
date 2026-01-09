@@ -6,7 +6,11 @@ settings:
 
 importers:
 
-  .: {}
+  .:
+    dependencies:
+      typescript:
+        specifier: ^5.7.3
+        version: 5.9.3
 
   apps/server:
     dependencies:
@@ -92,9 +96,6 @@ importers:
       tsconfig-paths:
         specifier: ^4.2.0
         version: 4.2.0
-      typescript:
-        specifier: ^5.7.3
-        version: 5.9.3
       typescript-eslint:
         specifier: ^8.20.0
         version: 8.52.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
@@ -276,9 +277,6 @@ importers:
       tw-animate-css:
         specifier: ^1.4.0
         version: 1.4.0
-      typescript:
-        specifier: ~5.9.3
-        version: 5.9.3
       typescript-eslint:
         specifier: ^8.46.4
         version: 8.52.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
@@ -286,11 +284,7 @@ importers:
         specifier: npm:rolldown-vite@7.2.5
         version: rolldown-vite@7.2.5(@types/node@24.10.4)(jiti@2.6.1)(terser@5.44.1)
 
-  packages/types:
-    dependencies:
-      typescript:
-        specifier: ^5.7.3
-        version: 5.9.3
+  packages/types: {}
 
 packages:
 

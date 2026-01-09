@@ -1,12 +1,16 @@
 {
-  "name": "cloneCursor",
+  "name": "@Trace/root",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "dev:web": "pnpm --filter web dev",
     "dev:server": "pnpm --filter server dev",
-    "dev": "pnpm -r --parallel run dev"
+    "dev": "pnpm -r --parallel run dev",
+    "build:web": "pnpm --filter web build",
+    "build:server": "pnpm --filter server build",
+    "build": "pnpm -r --parallel run build"
+  },
+  "dependencies": {
+    "typescript": "^5.7.3"
   },
   "keywords": [],
   "author": "",

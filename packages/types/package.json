@@ -6,7 +6,5 @@
   "types": "index.ts",
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "typescript": "^5.7.3"
-  }
+  "dependencies": {}
 }
